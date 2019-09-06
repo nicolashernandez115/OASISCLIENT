@@ -1,0 +1,22 @@
+<section class="pricing py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card mb-5 mb-lg-0">
+            <div class="card-body">
+              <h1 class="card-title text-center">Hoteles</h1>
+              <hr>
+              <ul class="fa-ul" *ngFor="let hotel of listahoteles">
+                <li><span class="fa-li"></span>{{ istahoteles.Id }}</li>
+                <li><span class="fa-li"></span>{{ listahoteles.Nombre }}</li>
+                <li><span class="fa-li"></span>{{ listahoteles.Clave }}</li>
+                <li><span class="fa-li"></span>{{ listahoteles.Propiedad_Id}}</li>
+                <a href="#" class="btn btn-block btn-primary text-uppercase">VER MÁS</a>
+              <hr>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>

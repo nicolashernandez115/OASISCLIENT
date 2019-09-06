@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>OASIS CANCUN</title>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/nuevocss3.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script language="JavaScript"> 
+
+  function mueveReloj(){ 
+      momentoActual = new Date() 
+      hora = momentoActual.getHours() 
+      minuto = momentoActual.getMinutes() 
+      segundo = momentoActual.getSeconds() 
+
+      horaImprimible = hora + " : " + minuto + " : " + segundo 
+
+      document.form_reloj.reloj.value = horaImprimible 
+
+      //La función se tendrá que llamar así misma para que sea dinámica, 
+      //de esta forma:
+
+      setTimeout(mueveReloj,1000)
+  }
+
+</script>
+  </head>
+  <body>
+    <header>
+<body onload="mueveReloj()"> 
+
+  <form name="form_reloj"> 
+      <a style="margin-left: 50px; font-weight: 600; color: white;"> GRAND OASIS CANCUN  |</a><a style="margin-left: 20px; color: white;"><script type="text/javascript">
+        var d = new Date();
+        document.write(' '+d.getDay(),'/'+d.getMonth(+1),'/'+d.getFullYear(),'  ');
+        </script></a><input type="text" name="reloj" size="10" readonly="readonly" style="margin-left: 20px; border: 0; background-color:#BF0404; color:white;"> 
+        <img style="float:right; margin-right: 20px;" width="25" height="25" src="OasisLOGO.png">
+  </form> 
+
+</body>
+ </header>
+<body style="background:#fff;">
+<section>
+  <div class="container">
+    <div class="row">
+      <!-- Primera Columna -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h1 class="card-title text-center">RESTAURANTES</h1>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"></span><b>LA PLACITA</b></li>
+              <li><span class="fa-li"></span>Mr. Whimpy/Happy Chicken/Tacos & Tortas</li>
+              <li><span class="fa-li"></span>ABIERTO HOY</li>
+              <li><span class="fa-li"></span>11:00 am - 06:00 pm</li>
+              <a href="#" class="btn btn-block btn-primary text-uppercase">VER MÁS</a>
+            <hr>
+            </ul>
+            <ul class="fa-ul">
+              <li><span class="fa-li"></span><b>LA PLACITA</b></li>
+              <li><span class="fa-li"></span>Mr. Whimpy/Happy Chicken/Tacos & Tortas</li>
+              <li><span class="fa-li"></span>ABIERTO HOY</li>
+              <li><span class="fa-li"></span>11:00 am - 06:00 pm</li>
+              <a href="#" class="btn btn-block btn-primary text-uppercase">VER MÁS</a>
+            <hr>
+            </ul>
+            <ul class="fa-ul">
+              <li><span class="fa-li"></span><b>LA PLACITA</b></li>
+              <li><span class="fa-li"></span>Mr. Whimpy/Happy Chicken/Tacos & Tortas</li>
+              <li><span class="fa-li"></span>ABIERTO HOY</li>
+              <li><span class="fa-li"></span>11:00 am - 06:00 pm</li>
+              <a href="#" class="btn btn-block btn-primary text-uppercase">VER MÁS</a>
+            <hr>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Segunda Columna -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body" style="background: #5D5D5D; color:#ffffff;">
+            <h1 class="card-title text-center">BARES</h1>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"></span><b>BAR AGEVES</b></li>
+              <li><span class="fa-li"></span>ABIERTO HOY</li>
+              <li><span class="fa-li"></span>11:00 Am - 11:00 pm</li>
+              <a href="#" class="btn btn-block btn-primary text-uppercase">VER MÁS</a>
+            <hr>
+            </ul>
+            <ul class="fa-ul">
+              <li><span class="fa-li"></span><b>BAR AGEVES</b></li>
+              <li><span class="fa-li"></span>ABIERTO HOY</li>
+              <li><span class="fa-li"></span>11:00 Am - 11:00 pm</li>
+              <a href="#" class="btn btn-block btn-primary text-uppercase">VER MÁS</a>
+            <hr>
+            </ul>
+            <ul class="fa-ul">
+              <li><span class="fa-li"></span><b>BAR AGEVES</b></li>
+              <li><span class="fa-li"></span>ABIERTO HOY</li>
+              <li><span class="fa-li"></span>11:00 Am - 11:00 pm</li>
+              <a href="#" class="btn btn-block btn-primary text-uppercase">VER MÁS</a>
+            <hr>
+            </ul>
+            <ul class="fa-ul">
+              <li><span class="fa-li"></span><b>BAR AGEVES</b></li>
+              <li><span class="fa-li"></span>ABIERTO HOY</li>
+              <li><span class="fa-li"></span>11:00 Am - 11:00 pm</li>
+              <a href="#" class="btn btn-block btn-primary text-uppercase">VER MÁS</a>
+            <hr>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Tercera  Column -->
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title text-center">LA PLACITA</h1>
+            <hr>
+            <ul class="fa-ul">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <footer>
+    </footer>
+  </body> 
+</html>
